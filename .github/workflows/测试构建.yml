@@ -35,8 +35,8 @@ jobs:
       - name: Checkout kernel source
         uses: actions/checkout@v4
         with:
-          repository: Guxin12/marble_kernel
-          ref: Glow-4LazyGoogle
+          repository: Guxin12/new_marble_kernel
+          ref: main
           path: kernel
           fetch-depth: 0
 
